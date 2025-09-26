@@ -12,5 +12,4 @@ def findOcurrences(text: str, first: str, second: str) :
         return ans
 
 
-
      

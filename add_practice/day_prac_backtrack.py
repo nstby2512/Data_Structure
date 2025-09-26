@@ -37,10 +37,3 @@ def input_func():
         print(ans)
 
     
-def sub_set(nums, first = 0):
-    for i in range(first, n):
-        nums[first], nums[i] = nums[i], nums[first]
-        res.append(nums[:first + 1])
-        sub_set(nums, first + 1)
-        nums[first], nums[i] = nums[i], nums[first]
-    
